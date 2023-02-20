@@ -1,7 +1,8 @@
 ### Technologies
 - React JS
 - SCSS
-  with react-dropzone & react-icons packages
+  
+  > with react-dropzone & react-icons packages
 
 # Getting Started with Create React App
 
