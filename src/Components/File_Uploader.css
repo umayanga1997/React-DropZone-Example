@@ -1,0 +1,173 @@
+.upload-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 100px 100px;
+  background: #FFFFFF;
+}
+
+.upload-container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+}
+
+.upload-container p {
+  margin: 24px 0px 0px 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+}
+
+.upload-container .list-of-doc {
+  margin: 16px 0px 0px 0px;
+  color: #3B4559;
+}
+
+.upload-container .list-of-doc li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9.33px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.upload-container .drop-box {
+  margin: 24px 0px 0px 0px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: 2px dashed #C2C6CE;
+  border-radius: 12px;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.upload-container .drop-box.active-drop {
+  background: #f3f3f3;
+  border: 2px dashed #818181;
+}
+
+.upload-container .drop-box .doc-icon {
+  color: #C724B1;
+}
+
+.upload-container .drop-box p {
+  margin: 20px 0px 8px 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+}
+
+.upload-container .drop-box .msg-text,
+.upload-container .drop-box .file-data {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3B4559;
+  text-decoration: none;
+}
+
+.upload-container .drop-box .upload-btn {
+  margin-top: 16px;
+  color: #753BBD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 7.33px;
+  cursor: pointer;
+}
+
+.upload-container .drop-box .upload-btn span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+
+.upload-container .proced-section {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.upload-container .proced-section button {
+  cursor: pointer;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.15px;
+  -webkit-font-feature-settings: 'case' on;
+          font-feature-settings: 'case' on;
+  border: 2px solid #753BBD;
+}
+
+.upload-container .proced-section button.proced-btn {
+  color: white;
+  background: #753BBD;
+}
+
+.upload-container .proced-section button.cancel-btn {
+  background: white;
+  color: #753BBD;
+}
+
+.upload-container .proced-section button.disable {
+  color: #C2C6CE;
+  background: #F6F6F8;
+  border: 2px solid #F6F6F8;
+}
+
+@media only screen and (max-width: 600px) {
+  .upload-container h2 {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+  }
+  .upload-container p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+  }
+  .upload-container .proced-section {
+    margin-top: 24px;
+    gap: 8px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=File_Uploader.css.map */
